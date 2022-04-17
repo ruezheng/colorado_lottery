@@ -6,10 +6,10 @@ describe Game do
 	let(:pick_4) { Game.new('Pick 4', 2) }
 	let(:mega_millions) { Game.new('Mega Millions', 5, true) }
 	let(:alexander) { Contestant.new({first_name: 'Alexander',
-                                    last_name: 'Aigiades',
-                                    age: 28,
-                                    state_of_residence: 'CO',
-                                    spending_money: 10}) }
+																		last_name: 'Aigiades',
+																		age: 28,
+																		state_of_residence: 'CO',
+																		spending_money: 10}) }
 
 	it "exists" do
 		expect(pick_4).to be_a Game

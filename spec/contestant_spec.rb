@@ -4,10 +4,10 @@ require "./lib/game"
 
 describe Contestant do
 	let(:alexander) { Contestant.new({first_name: 'Alexander',
-                                    last_name: 'Aigiades',
-                                    age: 28,
-                                    state_of_residence: 'CO',
-                                    spending_money: 10} )}
+																		last_name: 'Aigiades',
+																		age: 28,
+																		state_of_residence: 'CO',
+																		spending_money: 10} )}
 
 		it "exists" do
 			expect(alexander).to be_a Contestant
