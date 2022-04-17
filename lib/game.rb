@@ -4,8 +4,8 @@ class Game
 							:national_drawing,
 							:starting_amount
 
-	def initialize(first_name, last_name, cost, national_drawing = false)
-		@full_name = "#{first_name} #{last_name}"
+	def initialize(name, cost, national_drawing = false)
+		@name = name
 		@cost = cost
 		@national_drawing = national_drawing
 		@starting_amount = 0
