@@ -22,7 +22,7 @@ describe Contestant do
 			expect(alexander.game_interests).to eq []
 		end
 
-		xit "can add game intersts" do
+		it "can add game intersts" do
 			alexander.add_game_interest('Mega Millions')
 			alexander.add_game_interest('Pick 4')
 			expect(alexander.game_interests).to eq ["Mega Millions", "Pick 4"]
