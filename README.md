@@ -38,7 +38,7 @@ pry(main)> mega_millions.national_drawing?
 pry(main)> pick_4.national_drawing?
 #=> false
 
-pry(main)> alexander = Contestant.new({first_name: 'Alexander',
+pry(main)> alexander = Contestant.new(c{first_name: 'Alexander',
                                       last_name: 'Aigiades',
                                       age: 28,
                                       state_of_residence: 'CO',
