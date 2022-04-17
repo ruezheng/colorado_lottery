@@ -13,7 +13,9 @@ class ColoradoLottery
 		contestant.age >= 18 && contestant.game_interests.include?(game.name)
 	end
 
-	
+	def can_register?(contestant, game)
+		
+	end
 end
 
 
